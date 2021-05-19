@@ -3,9 +3,9 @@ export const fetchCharacters = async () => {
    const characters = await res.json()
 
    return characters.map(character => ({
-      id: character._id,
-      name: character.name,
-      image: character.photoUrl
+      id: character._id || 'N/A',
+      name: character.name || 'N/A',
+      image: character.photoUrl || 'N/A'
    }))
 }
 
@@ -15,16 +15,16 @@ export const fetchById = async (id) => {
    const char = await res.json();
 
    return {
-      name: char[0].name,
-      image: char[0].photoUrl,
-      gender: char[0].gender,
-      hair: char[0].hair,
-      weapon: char[0].weapon,
-      profession: char[0].profession,
-      position: char[0].position,
-      affiliation: char[0].affiliation,
-      allies: char[0].allies,
-      enemies: char[0].enemies
+      name: char.name || 'N/A',
+      image: char.photoUrl || 'N/A',
+      gender: char.gender || 'N/A',
+      hair: char.hair || 'N/A',
+      weapon: char.weapon || 'N/A',
+      profession: char.profession || 'N/A',
+      position: char.position || 'N/A',
+      affiliation: char.affiliation || 'N/A',
+      allies: char.allies || 'N/A',
+      enemies: char.enemies || 'N/A'
    }
 }
 
