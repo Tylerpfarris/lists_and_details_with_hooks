@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 
 function Details({character}) {
    return (
-      <>
+      <div data-testid='details'>
          <img src={character.image} alt={character.name} />
-         <h3>{character.name}</h3>
+         <h3 data-testid='nameEl'>{character.name}</h3>
          <p>gender: {character.gender}</p>
          <p>hair color: {character.hair}</p>
          <p>weapon: {character.weapon}</p>
@@ -13,7 +13,7 @@ function Details({character}) {
          <p>affiliation: {character.affiliation}</p>
          <p>allies: {character.allies}</p>
          <p>enemies: {character.enemies}</p>
-      </>
+      </div>
    )
 }
 

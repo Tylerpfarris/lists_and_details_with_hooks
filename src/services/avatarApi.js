@@ -23,8 +23,8 @@ export const fetchById = async (id) => {
       profession: char.profession || 'N/A',
       position: char.position || 'N/A',
       affiliation: char.affiliation || 'N/A',
-      allies: char.allies || 'N/A',
-      enemies: char.enemies || 'N/A'
+      allies: char.allies || ['N/A'],
+      enemies: char.enemies || ['N/A']
    }
 }
 

@@ -11,7 +11,6 @@ function Avatar() {
       .then(setCharacters)
       .finally(() => setLoading(false));
   }, []);
- console.log('this', characters)
   return loading ? (
     <h1>Loading...</h1>
   ) : (

@@ -9,9 +9,6 @@ function CharacterDetailsContainer({match}) {
 
 
   useEffect(() => {
-    const id = match.params.id;
-     console.log(id);
-
     fetchById(match.params.id)
       .then(setCharacter)
       .finally(() => setLoading(false));
