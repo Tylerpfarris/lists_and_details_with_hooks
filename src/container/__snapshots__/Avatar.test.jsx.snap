@@ -1,0 +1,348 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar renders a list of Avatar characters on the screen 1`] = `
+<ul
+  aria-label="character-list"
+>
+  <li>
+    <figure>
+      <h3>
+        Analay
+      </h3>
+      <img
+        alt="Analay"
+        src="https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201"
+      />
+    </figure>
+    <a
+      data-testid="link-Analay"
+      href="/details/5cf5679a915ecad153ab68d1"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Arik
+      </h3>
+      <img
+        alt="Arik"
+        src="https://vignette.wikia.nocookie.net/avatar/images/6/6f/Arik.png/revision/latest?cb=20140808184002"
+      />
+    </figure>
+    <a
+      data-testid="link-Arik"
+      href="/details/5cf5679a915ecad153ab68d5"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Baatar Jr.
+      </h3>
+      <img
+        alt="Baatar Jr."
+        src="https://vignette.wikia.nocookie.net/avatar/images/4/45/Baatar_Jr..png/revision/latest?cb=20150409193510"
+      />
+    </figure>
+    <a
+      data-testid="link-Baatar Jr."
+      href="/details/5cf5679a915ecad153ab68e2"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Bolin
+      </h3>
+      <img
+        alt="Bolin"
+        src="https://vignette.wikia.nocookie.net/avatar/images/d/d4/Bolin.png/revision/latest?cb=20150406232314"
+      />
+    </figure>
+    <a
+      data-testid="link-Bolin"
+      href="/details/5cf5679a915ecad153ab68e9"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Chan (Fire Nation admiral)
+      </h3>
+      <img
+        alt="Chan (Fire Nation admiral)"
+        src="N/A"
+      />
+    </figure>
+    <a
+      data-testid="link-Chan (Fire Nation admiral)"
+      href="/details/5cf5679a915ecad153ab68fd"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Chit Sang
+      </h3>
+      <img
+        alt="Chit Sang"
+        src="https://vignette.wikia.nocookie.net/avatar/images/8/81/Chit_Sang.png/revision/latest?cb=20121021000707"
+      />
+    </figure>
+    <a
+      data-testid="link-Chit Sang"
+      href="/details/5cf5679a915ecad153ab6900"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Asami Sato
+      </h3>
+      <img
+        alt="Asami Sato"
+        src="https://vignette.wikia.nocookie.net/avatar/images/b/b6/Asami_Sato.png/revision/latest?cb=20150407110150"
+      />
+    </figure>
+    <a
+      data-testid="link-Asami Sato"
+      href="/details/5cf5679a915ecad153ab68d7"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Bum-Ju
+      </h3>
+      <img
+        alt="Bum-Ju"
+        src="https://vignette.wikia.nocookie.net/avatar/images/b/b6/Bum-Ju.png/revision/latest?cb=20140730103156"
+      />
+    </figure>
+    <a
+      data-testid="link-Bum-Ju"
+      href="/details/5cf5679a915ecad153ab68f0"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Butler
+      </h3>
+      <img
+        alt="Butler"
+        src="https://vignette.wikia.nocookie.net/avatar/images/8/82/Butler.png/revision/latest?cb=20121107115044"
+      />
+    </figure>
+    <a
+      data-testid="link-Butler"
+      href="/details/5cf5679a915ecad153ab68f5"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Broadsword man
+      </h3>
+      <img
+        alt="Broadsword man"
+        src="https://vignette.wikia.nocookie.net/avatar/images/9/98/Broadsword_man.png/revision/latest?cb=20130630171553"
+      />
+    </figure>
+    <a
+      data-testid="link-Broadsword man"
+      href="/details/5cf5679a915ecad153ab68ed"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Aiwei
+      </h3>
+      <img
+        alt="Aiwei"
+        src="https://vignette.wikia.nocookie.net/avatar/images/0/07/Aiwei_reveals_Korra%27s_lie.png/revision/latest?cb=20140808130551"
+      />
+    </figure>
+    <a
+      data-testid="link-Aiwei"
+      href="/details/5cf5679a915ecad153ab68cf"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Animal control officer
+      </h3>
+      <img
+        alt="Animal control officer"
+        src="https://vignette.wikia.nocookie.net/avatar/images/5/58/Animal_control_officer.png/revision/latest?cb=20140504160655"
+      />
+    </figure>
+    <a
+      data-testid="link-Animal control officer"
+      href="/details/5cf5679a915ecad153ab68d2"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Chow
+      </h3>
+      <img
+        alt="Chow"
+        src="https://vignette.wikia.nocookie.net/avatar/images/5/51/Chow.png/revision/latest?cb=20140730173827"
+      />
+    </figure>
+    <a
+      data-testid="link-Chow"
+      href="/details/5cf5679a915ecad153ab6904"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Circus master
+      </h3>
+      <img
+        alt="Circus master"
+        src="https://vignette.wikia.nocookie.net/avatar/images/a/a5/Circus_master.png/revision/latest?cb=20130706153819"
+      />
+    </figure>
+    <a
+      data-testid="link-Circus master"
+      href="/details/5cf5679a915ecad153ab6906"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Bujing
+      </h3>
+      <img
+        alt="Bujing"
+        src="https://vignette.wikia.nocookie.net/avatar/images/7/76/Bujing.png/revision/latest?cb=20130714152817"
+      />
+    </figure>
+    <a
+      data-testid="link-Bujing"
+      href="/details/5cf5679a915ecad153ab68ee"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Buttercup Raiko
+      </h3>
+      <img
+        alt="Buttercup Raiko"
+        src="https://vignette.wikia.nocookie.net/avatar/images/e/ed/Buttercup_Raiko.png/revision/latest?cb=20150409193510"
+      />
+    </figure>
+    <a
+      data-testid="link-Buttercup Raiko"
+      href="/details/5cf5679a915ecad153ab68f6"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Cabbage merchant
+      </h3>
+      <img
+        alt="Cabbage merchant"
+        src="https://vignette.wikia.nocookie.net/avatar/images/2/2f/Cabbage_merchant.png/revision/latest?cb=20140112200908"
+      />
+    </figure>
+    <a
+      data-testid="link-Cabbage merchant"
+      href="/details/5cf5679a915ecad153ab68f7"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Calm man
+      </h3>
+      <img
+        alt="Calm man"
+        src="https://vignette.wikia.nocookie.net/avatar/images/b/b6/Calm_man.png/revision/latest?cb=20130814093330"
+      />
+    </figure>
+    <a
+      data-testid="link-Calm man"
+      href="/details/5cf5679a915ecad153ab68f8"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Chin
+      </h3>
+      <img
+        alt="Chin"
+        src="https://vignette.wikia.nocookie.net/avatar/images/6/6f/Chin_the_Great.png/revision/latest?cb=20140215111604"
+      />
+    </figure>
+    <a
+      data-testid="link-Chin"
+      href="/details/5cf5679a915ecad153ab68ff"
+    >
+      Details
+    </a>
+  </li>
+  <li>
+    <figure>
+      <h3>
+        Chit Sang's friend
+      </h3>
+      <img
+        alt="Chit Sang's friend"
+        src="https://vignette.wikia.nocookie.net/avatar/images/6/6e/Chit_Sang%27s_friend.png/revision/latest?cb=20121120131829"
+      />
+    </figure>
+    <a
+      data-testid="link-Chit Sang's friend"
+      href="/details/5cf5679a915ecad153ab6901"
+    >
+      Details
+    </a>
+  </li>
+</ul>
+`;

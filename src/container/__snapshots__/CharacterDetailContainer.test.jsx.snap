@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetailsContainer displays a characters details 1`] = `
+<div
+  data-testid="details"
+>
+  <img
+    alt="Analay"
+    src="https://vignette.wikia.nocookie.net/avatar/images/c/c3/Analay.png/revision/latest?cb=20140430182201"
+  />
+  <h3
+    data-testid="nameEl"
+  >
+    Analay
+  </h3>
+  <p>
+    gender: 
+    Female
+  </p>
+  <p>
+    hair color: 
+    Black with red highlights
+  </p>
+  <p>
+    weapon: 
+    Shadows
+  </p>
+  <p>
+    profession: 
+    N/A
+  </p>
+  <p>
+    affiliation: 
+    Unnamed team
+  </p>
+  <p>
+    allies: 
+    Riley
+  </p>
+  <p>
+    enemies: 
+  </p>
+</div>
+`;

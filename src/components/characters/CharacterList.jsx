@@ -13,7 +13,7 @@ function CharacterList({ characters }) {
               name={character.name}
               image={character.image || 'undefined'}
             />
-            <Link to={`/details/${character.id}`}>Details</Link>
+            <Link data-testid={`link-${character.name}`} to={`/details/${character.id}`}>Details</Link>
           </li>
         ))}
       </ul>
