@@ -4,11 +4,18 @@ import { useFetch } from '../hooks/useFetch';
 
 
 function Avatar() {
-  const { loading, characters } = useFetch()
+  const { loading, characters, page, setPage } = useFetch()
   return loading ? (
     <h1>Loading...</h1>
   ) : (
-    <CharacterList characters={characters} />
+     <div>
+        <button onClick={() => {
+          if (page === 1) return;
+          else setPage((prevPage) => prevPage - 1);
+        }}>Previous</button>
+        <button onClick={() => setPage((prevPage) => prevPage +1)}>Next</button>
+       <CharacterList characters={characters} />
+     </div> 
   );
 }
 
