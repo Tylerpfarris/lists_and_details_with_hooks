@@ -1,16 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import CharacterList from '../components/characters/CharacterList';
-import { fetchCharacters } from '../services/avatarApi';
+import { useFetch } from '../hooks/useFetch';
+
 
 function Avatar() {
-  const [loading, setLoading] = useState(true);
-  const [characters, setCharacters] = useState([]);
-
-  useEffect(() => {
-    fetchCharacters()
-      .then(setCharacters)
-      .finally(() => setLoading(false));
-  }, []);
+  const { loading, characters } = useFetch()
   return loading ? (
     <h1>Loading...</h1>
   ) : (

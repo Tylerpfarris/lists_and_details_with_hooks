@@ -1,19 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { fetchById } from '../services/avatarApi';
 import Details from '../components/characters/Details';
+import { useDetails } from '../hooks/useDetails';
 
 function CharacterDetailsContainer({match}) {
-  const [character, setCharacter] = useState([]);
-  const [loading, setLoading] = useState(true);
-
-
-  useEffect(() => {
-    fetchById(match.params.id)
-      .then(setCharacter)
-      .finally(() => setLoading(false));
-  }, []);
-
+  const id = match.params.id;
+  const {character, loading} = useDetails(id)
   return loading ? (
     <h1>Loading...</h1>
   ) : (

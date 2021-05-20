@@ -56,5 +56,7 @@ describe('CharacterDetailsContainer', () => {
 
       const charName = screen.findByTestId('nameEl')
       expect(charName).toContainHTML
+
+
    })
 })
